@@ -5,7 +5,7 @@
 22 3 9 -> 22
 */
 
-Console.Write("Введите три числа:");
+Console.Write("Введите три числа: ");
 int number1 = Convert.ToInt32(Console.ReadLine()),
 number2 = Convert.ToInt32(Console.ReadLine()), 
 number3 = Convert.ToInt32(Console.ReadLine());

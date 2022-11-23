@@ -6,6 +6,7 @@
 
 Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
+number = Math.Abs(number);
 int i = 0;
 Console.Write($"чётные числа от 1 до {number}: ");
 while (i < number)

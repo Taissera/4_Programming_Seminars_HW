@@ -9,7 +9,7 @@ Console.Write("Введите три числа: ");
 int number1 = Convert.ToInt32(Console.ReadLine()),
 number2 = Convert.ToInt32(Console.ReadLine()), 
 number3 = Convert.ToInt32(Console.ReadLine());
-int maxNumber = 0;
+int maxNumber = number1;
 
 if (number1 > number2)
 {

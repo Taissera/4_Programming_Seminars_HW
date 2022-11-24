@@ -6,16 +6,25 @@
 
 Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-number = Math.Abs(number);
-int i = 0;
-Console.Write($"чётные числа от 1 до {number}: ");
-while (i < number)
+// number = Math.Abs(number);
+
+while (number < 1)
 {
-    i += 1;
-    if (i %2 == 0)
+    Console.WriteLine($"Введите положительное значение:");
+    number = Convert.ToInt32(Console.ReadLine());
+    
+    int i = 2;
+    Console.Write($"чётные числа от 1 до {number}: ");
+    while (i < number)
     {
-    Console.Write($"{i} ");
+        //if (i %2 == 0)
+        //{
+        Console.Write($"{i} ");
+        //}
+    i += 1;
     }
 }
+
+
 
 

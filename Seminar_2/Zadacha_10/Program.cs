@@ -4,3 +4,16 @@
 782 -> 8
 918 -> 1
 */
+
+Console.WriteLine("Введите трёхзначное число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+if (number < 1000 && number > 99)
+{
+    int secondDigit = number / 10 % 10;
+    Console.WriteLine($"Вторая цифра числа {number}: {secondDigit}");
+}
+else
+{
+    Console.WriteLine("Вы ввели НЕ трёхзначное число");
+}

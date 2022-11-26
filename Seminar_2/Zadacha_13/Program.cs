@@ -6,44 +6,35 @@
 */
 
 Console.WriteLine("Введите число: ");
-int initialNumber = Convert.ToInt32(Console.ReadLine());
-int count = 0;
+int number = Convert.ToInt32(Console.ReadLine());
 
-while (initialNumber > 0) 
+// считаем разряд числа
+int NumberDigit(int number)
 {
-   count++;
-   initialNumber /= 10;
+    int count = 0;
+    while (number > 0)
+    {
+        number = number / 10;
+        count++;
+    }
+    return count;
 }
-// Console.WriteLine($"Количество цифр введённого числа равно {count}");
-int numberLength = count;
-int index = 0;
-int digit = 10;
-if (numberLength < 3)
+int numDigit = NumberDigit(number);
+// проверяем что число трехзначное или больше
+if (numDigit <= 2)
 {
     Console.WriteLine("третьей цифры нет");
 }
 else
 {
-    while (index < numberLength)
+/*
+Находим третью цифра введённого числа. Используем функцию Math.Pow() – возведения числа в степень. 
+В аргументных скобках через запятую указываются два аргумента (1-ый аргумент - число, которое возводим в степень, 2-ой – степень, в которую возводим число).
+*/
+    if (numDigit > 3)
     {
-        digit = 10 * 10;
-        index++;
+        number = number / Convert.ToInt32(Math.Pow(10, numDigit - 3));
     }
-    Console.WriteLine($"Рязряд числа: {digit}");
+    number = number % 10;
+    Console.WriteLine($"Третья цифра введённого числа: {number}");
 }
-  
-
-/*
-int firstDigit = number / 10;
-int secondDigit = number % 100;
-
-Console.WriteLine($" Первое число {firstDigit}");
-Console.WriteLine($" Второе число {secondDigit}");
-*/
-
-/*
-if (number < 100)
-{
-Console.WriteLine("третьей цифры нет");
-}
-*/

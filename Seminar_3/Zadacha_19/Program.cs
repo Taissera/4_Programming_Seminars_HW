@@ -7,18 +7,18 @@
 */
 
 Console.WriteLine("Введите пятизначное число: ");
-string number = Console.ReadLine();
-int NumLength = number.Length;
+string? number = Console.ReadLine();
+int NumLength = number!.Length;
 
 if (NumLength == 5)
 {
     if (number[0] == number[4] && number[1] == number[3])
     {
-        Console.WriteLine($"Да. {number} - палиндром");
+        Console.WriteLine($"Да. Число {number} - палиндром");
     }
     else
     {
-        Console.WriteLine($"Нет. {number} - НЕ палиндром");
+        Console.WriteLine($"Нет. Число {number} - НЕ палиндром");
     }
 }
 else

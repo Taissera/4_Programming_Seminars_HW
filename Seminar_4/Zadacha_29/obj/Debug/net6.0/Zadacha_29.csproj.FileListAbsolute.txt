@@ -1,0 +1,15 @@
+E:\GeekBrains\Системный Аналитик\4_Знакомство с языками программирования (семинары)\Семинары_ДЗ\4_Programming_Seminars_HW\Seminar_4\Zadacha_29\bin\Debug\net6.0\Zadacha_29.exe
+E:\GeekBrains\Системный Аналитик\4_Знакомство с языками программирования (семинары)\Семинары_ДЗ\4_Programming_Seminars_HW\Seminar_4\Zadacha_29\bin\Debug\net6.0\Zadacha_29.deps.json
+E:\GeekBrains\Системный Аналитик\4_Знакомство с языками программирования (семинары)\Семинары_ДЗ\4_Programming_Seminars_HW\Seminar_4\Zadacha_29\bin\Debug\net6.0\Zadacha_29.runtimeconfig.json
+E:\GeekBrains\Системный Аналитик\4_Знакомство с языками программирования (семинары)\Семинары_ДЗ\4_Programming_Seminars_HW\Seminar_4\Zadacha_29\bin\Debug\net6.0\Zadacha_29.dll
+E:\GeekBrains\Системный Аналитик\4_Знакомство с языками программирования (семинары)\Семинары_ДЗ\4_Programming_Seminars_HW\Seminar_4\Zadacha_29\bin\Debug\net6.0\Zadacha_29.pdb
+E:\GeekBrains\Системный Аналитик\4_Знакомство с языками программирования (семинары)\Семинары_ДЗ\4_Programming_Seminars_HW\Seminar_4\Zadacha_29\obj\Debug\net6.0\Zadacha_29.csproj.AssemblyReference.cache
+E:\GeekBrains\Системный Аналитик\4_Знакомство с языками программирования (семинары)\Семинары_ДЗ\4_Programming_Seminars_HW\Seminar_4\Zadacha_29\obj\Debug\net6.0\Zadacha_29.GeneratedMSBuildEditorConfig.editorconfig
+E:\GeekBrains\Системный Аналитик\4_Знакомство с языками программирования (семинары)\Семинары_ДЗ\4_Programming_Seminars_HW\Seminar_4\Zadacha_29\obj\Debug\net6.0\Zadacha_29.AssemblyInfoInputs.cache
+E:\GeekBrains\Системный Аналитик\4_Знакомство с языками программирования (семинары)\Семинары_ДЗ\4_Programming_Seminars_HW\Seminar_4\Zadacha_29\obj\Debug\net6.0\Zadacha_29.AssemblyInfo.cs
+E:\GeekBrains\Системный Аналитик\4_Знакомство с языками программирования (семинары)\Семинары_ДЗ\4_Programming_Seminars_HW\Seminar_4\Zadacha_29\obj\Debug\net6.0\Zadacha_29.csproj.CoreCompileInputs.cache
+E:\GeekBrains\Системный Аналитик\4_Знакомство с языками программирования (семинары)\Семинары_ДЗ\4_Programming_Seminars_HW\Seminar_4\Zadacha_29\obj\Debug\net6.0\Zadacha_29.dll
+E:\GeekBrains\Системный Аналитик\4_Знакомство с языками программирования (семинары)\Семинары_ДЗ\4_Programming_Seminars_HW\Seminar_4\Zadacha_29\obj\Debug\net6.0\refint\Zadacha_29.dll
+E:\GeekBrains\Системный Аналитик\4_Знакомство с языками программирования (семинары)\Семинары_ДЗ\4_Programming_Seminars_HW\Seminar_4\Zadacha_29\obj\Debug\net6.0\Zadacha_29.pdb
+E:\GeekBrains\Системный Аналитик\4_Знакомство с языками программирования (семинары)\Семинары_ДЗ\4_Programming_Seminars_HW\Seminar_4\Zadacha_29\obj\Debug\net6.0\Zadacha_29.genruntimeconfig.cache
+E:\GeekBrains\Системный Аналитик\4_Знакомство с языками программирования (семинары)\Семинары_ДЗ\4_Programming_Seminars_HW\Seminar_4\Zadacha_29\obj\Debug\net6.0\ref\Zadacha_29.dll

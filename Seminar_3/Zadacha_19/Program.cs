@@ -25,3 +25,4 @@ else
 {
     Console.WriteLine($"{number} - не является пятизначным");
 }
+

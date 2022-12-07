@@ -30,3 +30,4 @@ double sum2 = Math.Pow((y2 - y1), 2);
 double sum3 = Math.Pow((z2 - z1), 2);
 double result = Math.Sqrt(sum1 + sum2 + sum3);
 Console.WriteLine(result);
+

@@ -28,3 +28,4 @@ for(int i = 1; i <= lin; i++)
 {
     Console.Write($" {Math.Pow(i,3)}, ");
 }
+

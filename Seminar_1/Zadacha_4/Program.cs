@@ -27,3 +27,5 @@ else
 {
     Console.Write($"максимальное число {number3}");
 }
+
+

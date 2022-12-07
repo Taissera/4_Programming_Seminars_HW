@@ -14,14 +14,14 @@ if (NumLength == 5)
 {
     if (number[0] == number[4] && number[1] == number[3])
     {
-        Console.WriteLine($"Да. Число {number} - палиндром");
+        Console.WriteLine($"{number} - палиндром");
     }
     else
     {
-        Console.WriteLine($"Нет. Число {number} - НЕ палиндром");
+        Console.WriteLine($"{number} - НЕ палиндром");
     }
 }
 else
 {
-    Console.WriteLine($"Число {number} - не является пятизначным. Введите пятизначное число.");
+    Console.WriteLine($"{number} - не является пятизначным");
 }

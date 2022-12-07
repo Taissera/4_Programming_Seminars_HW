@@ -38,3 +38,4 @@ else
     number = number % 10;
     Console.WriteLine($"Третья цифра введённого числа: {number}");
 }
+

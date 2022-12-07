@@ -23,3 +23,4 @@ else
 {
     Console.WriteLine("Ввели число не от 1 до 7");
 }
+

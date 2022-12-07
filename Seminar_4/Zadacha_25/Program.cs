@@ -38,3 +38,5 @@ int Exp(int number1, int number2)
   
   int exp = Exp(number1, number2);
   Console.WriteLine($"Число {number1} в степени {number2} = {exp}");
+
+  

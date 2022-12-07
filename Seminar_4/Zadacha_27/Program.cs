@@ -44,3 +44,5 @@ int number = GetNumber("Введите число N: ");
 int summ = NumDigitSumm(number);
 
 Console.WriteLine($"Сумма цифр введённого числа {number} = {summ}");
+
+

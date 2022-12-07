@@ -20,3 +20,5 @@ Console.Write($"[");
 Console.Write(string.Join(",", array));
 Console.Write($"]");
 
+
+

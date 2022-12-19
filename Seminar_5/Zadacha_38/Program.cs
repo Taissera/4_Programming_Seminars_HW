@@ -85,22 +85,12 @@ int GetNumberFromConsole (string message)
     return result;
 }
 
-// метод, который будет печатать массив
-void PrintArray (double [] array)
-{
-    for (int i = 0; i < array.Length; i++)
-    {
-        Console.Write($"{array[i]} ");
-    }
-    Console.WriteLine();
-}
-
 // находит Max и Min элементы массива
 double DiffMaxMin (double [] array)
 {
-    double diffMaxMin = 3.5;
-    double minNumber = -2.5;
-    double maxNumber = 10.5;
+    double diffMaxMin = 0.0;
+    double minNumber = 0.0;
+    double maxNumber = 0.0;
     for (int i = 0; i < array.Length; i++)
     {
         if (array[i] > maxNumber) maxNumber = array[i];
@@ -114,5 +104,7 @@ double DiffMaxMin (double [] array)
 
 int Darray = GetNumberFromConsole ("Введите размерность массива");
 double [] startArray = GetArray (Darray);
-PrintArray (startArray);
-// на этом этапе распечатали массив, но ещё не выполнили вычисления
+
+Console.WriteLine($"В массиве [{string.Join("  ", startArray)}]:");
+double result = DiffMaxMin (startArray);
+Console.WriteLine($"* разница между max элементом и min элементом равна {result}");

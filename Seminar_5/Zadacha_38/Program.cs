@@ -38,3 +38,5 @@ int [] array = GetArray(Convert.ToInt32(Console.ReadLine()));
 Console.WriteLine($"В массиве [{string.Join(",", array)}]:");
 int result = DiffMaxMin(array);
 Console.WriteLine($"* разница между max элементом и min элементом равна {result}");
+
+

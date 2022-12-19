@@ -62,4 +62,3 @@ int [] startArray = InitArray (dimension);
 PrintArray(startArray);
 int [] finalArray = CopyArray (startArray);
 PrintArray(finalArray);
-

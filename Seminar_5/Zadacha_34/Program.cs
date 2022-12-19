@@ -30,4 +30,3 @@ Console.WriteLine("Введите размер массива");
 int [] array = GetArray(Convert.ToInt32(Console.ReadLine()));
 Console.WriteLine();
 Console.WriteLine($"В массиве [{string.Join(",", array)}] количество элементов, значения которых являются чётными равно {Count(array)}");
-

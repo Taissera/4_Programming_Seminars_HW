@@ -10,7 +10,7 @@
 8 4 4 2
 */
 
-// ввода числа
+// ввод числа
 int GetNumber(string text)
 {
     int result = 0;

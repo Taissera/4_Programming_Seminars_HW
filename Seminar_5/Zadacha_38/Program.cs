@@ -108,3 +108,4 @@ double [] startArray = GetArray (Darray);
 Console.WriteLine($"В массиве [{string.Join("  ", startArray)}]:");
 double result = DiffMaxMin (startArray);
 Console.WriteLine($"* разница между max элементом и min элементом равна {result}");
+
